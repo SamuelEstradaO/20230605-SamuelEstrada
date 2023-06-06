@@ -1,0 +1,19 @@
+git init
+git branch -m master main
+git remote add origin https://github.com/SamuelEstradaO/20230605-SamuelEstrada.git
+touch comandos.txt main.js index.html
+git add .
+git commit -m "commit 01 de SamuelEstrada"
+git push origin main
+git checkout -b feature
+mkdir Hardware Sofware SeguridadInformatica
+touch Hardware/resumen.txt
+touch SeguridadInformatica/resumen.txt
+touch Sofware/resumen.txt
+git add .
+git commit -m "commit 02 de SamuelEstrada"
+git push origin feature
+git checkout main
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+history
